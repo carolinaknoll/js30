@@ -10,10 +10,6 @@ function playSound(e) {
     return;
   }
 
-  // 'this' is equal to what was called against it
-  // addEventListener was called, and key was called against it
-  this.classList.remove('playing');
-
   // if we call play() on an audio that is already playing, it wont play again
   // so we need to reset the audio time to 0 every time the keydown event is fired
   audio.currentTime(0);
@@ -32,6 +28,10 @@ function removeTransition(e) {
   if (e.propertyName !== 'transform') {
     return;
   }
+
+  // 'this' is equal to what was called against it
+  // addEventListener was called, and key was called against it
+  this.classList.remove('playing');
 }
 
 // select every single key from the page and store them in keys
