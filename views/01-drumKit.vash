@@ -1,6 +1,6 @@
 @html.extend("layout.vash", function() {
 	@html.block('styles', function(){
-		<link rel="stylesheet" href="../static/styles/01-drumKit.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="styles/01-drumKit.css" type="text/css" media="screen" charset="utf-8">
 	})
 
   @html.block("content", function() {
