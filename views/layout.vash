@@ -11,7 +11,7 @@
 		@html.block('content')
 
 		<footer>
-			@html.block('footer', function(){
+			@html.block('footer', function() {
 				<text>This is the footer block.</text>
 			})
 		</footer>
