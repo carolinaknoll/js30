@@ -4,6 +4,12 @@
 	})
 
   @html.block("content", function() {
-    <h1>This is the content block!</h1>
+    <div data-key=65 class="key">
+      <kbd></kbd>
+      <span class="sound"></span>
+    </div>
+
+    <audio data-key=65 src=""></audio>
   })
+<script src="scripts/01-drumKit.js"></script>
 })

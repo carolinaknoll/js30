@@ -1,3 +1,13 @@
 body {
   background: lightskyblue;
 }
+
+.key {
+  transition: all .07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
