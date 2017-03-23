@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>@model.title</title>
+		@html.block('styles');
+	</head>
+
+	<body>
+		@html.block('content');
+
+		<footer>
+			@html.block('footer', function(){
+				<text>This is the footer block.</text>
+			});
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "JavaScript 30 projects challenge, this time flavored with Node.js and Vash templating engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carolina Knoll",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
