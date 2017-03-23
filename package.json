@@ -4,7 +4,9 @@
   "description": "JavaScript 30 projects challenge, this time flavored with Node.js and Vash templating engine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "start:sync": "node index.js && npm run sync",
+    "sync": "browser-sync start --proxy localhost:3000 --files *"
   },
   "author": "Carolina Knoll",
   "license": "MIT",
