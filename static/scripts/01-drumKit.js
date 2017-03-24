@@ -12,13 +12,13 @@ function playSound(e) {
 
   // if we call play() on an audio that is already playing, it wont play again
   // so we need to reset the audio time to 0 every time the keydown event is fired
-  audio.currentTime(0);
+  audio.currentTime = 0;
   audio.play();
 
   // add the playing css class to the pressed button
   key.classList.add('playing');
 
-});
+};
 
 function removeTransition(e) {
 
