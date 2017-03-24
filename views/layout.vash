@@ -3,8 +3,16 @@
 
 	<head>
 		<meta charset="utf-8">
-		<link rel="icon" href="images/favicon.ico">
+
+		<!-- Project-specific page title -->
 		@html.block('title')
+
+		<link rel="icon" href="images/favicon.ico">
+
+		<!-- Base styles -->
+		<link rel="stylesheet" href="styles/base.css" type="text/css" media="screen" charset="utf-8">
+
+		<!-- Project-specific styles -->
 		@html.block('styles')
 	</head>
 
@@ -13,7 +21,6 @@
 
 		<footer>
 			@html.block('footer', function() {
-				<text>This is the footer block.</text>
 			})
 		</footer>
 	</body>
