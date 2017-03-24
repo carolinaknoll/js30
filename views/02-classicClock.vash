@@ -1,0 +1,25 @@
+@html.extend("layout.vash", function() {
+	@html.block('styles', function(){
+		<link rel="stylesheet" href="styles/02-classicClock.css" type="text/css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	})
+
+	@html.block('title', function(){
+		<title>Classic Clock [JS30 - 02]</title>
+	})
+
+  @html.block("content", function() {
+
+  <h3 class="big-text">Now it's the perfect time for...</h3>
+
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand" id="hour-hand"></div>
+        <div class="hand" id="min-hand"></div>
+        <div class="hand" id="second-hand"></div>
+      </div>
+    </div>
+
+    <script src="scripts/02-classicClock.js"></script>
+  })
+})
