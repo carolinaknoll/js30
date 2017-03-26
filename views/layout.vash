@@ -3,6 +3,11 @@
 
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="javascript30, js30, challenges">
+		<meta name="author" content="Carolina Knoll | Front-end Web Developer">
+		<meta name="description" content="JavaScript 30 projects challenge, this time flavored with Node.js and Vash templating engine.">
 
 		<!-- Project-specific page title -->
 		@html.block('title')
