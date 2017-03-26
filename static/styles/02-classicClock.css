@@ -49,17 +49,17 @@ html {
 }
 
 .cake-big {
-  background: url(../images/02-cake-big.png) no-repeat;
+  background: url(../images/02-cake-small.png) no-repeat;
   box-sizing: border-box;
   height: 50%;
 
   position: relative;
-  top: 105px;
-  left: 114px;
+  top: 124px;
+  left: 128px;
 }
 
 .cake-small {
-  background: url(../images/02-cake-small.png) no-repeat;
+  background: url(../images/02-cake-smallest.png) no-repeat;
   box-sizing: border-box;
   height: 50%;
   position: absolute;
@@ -70,23 +70,63 @@ html {
 }
 
 .cake-small:nth-child(1) {
-  left: 138px;
-  bottom: 132px;
+  left: 140px;
+  bottom: 20px;
 }
 
 .cake-small:nth-child(2) {
-  left: 392px;
-  top: 125px;
+  left: 225px;
+  top: 5px;
 }
 
 .cake-small:nth-child(3) {
-  right: 12px;
-  top: 85px;
+  left: 280px;
+  top: 70px;
 }
 
 .cake-small:nth-child(4) {
-  right: 25px;
-  top: 125px;
+  left: 297px;
+  top: 142px;
+}
+
+.cake-small:nth-child(5) {
+  left: 277px;
+  top: 213px;
+}
+
+.cake-small:nth-child(6) {
+  left: 221px;
+  top: 268px;
+}
+
+.cake-small:nth-child(7) {
+  left: 144px;
+  top: 301px;
+}
+
+.cake-small:nth-child(8) {
+  left: 8px;
+  top: 218px;
+}
+
+.cake-small:nth-child(9) {
+  left: 65px;
+  top: 270px;
+}
+
+.cake-small:nth-child(10) {
+  right: 16px;
+  top: 142px;
+}
+
+.cake-small:nth-child(11) {
+  left: 1px;
+  top: 65px;
+}
+
+.cake-small:nth-child(12) {
+  left: 60px;
+  top: 4px;
 }
 
 .center-circle {
