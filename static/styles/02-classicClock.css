@@ -47,3 +47,59 @@ html {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+
+.cake-big {
+  background: url(../images/02-cake-big.png) no-repeat;
+  box-sizing: border-box;
+  height: 50%;
+
+  position: relative;
+  top: 105px;
+  left: 114px;
+}
+
+.cake-small {
+  background: url(../images/02-cake-small.png) no-repeat;
+  box-sizing: border-box;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.cake-small:nth-child(1) {
+  left: 138px;
+  bottom: 132px;
+}
+
+.cake-small:nth-child(2) {
+  left: 392px;
+  top: 125px;
+}
+
+.cake-small:nth-child(3) {
+  right: 12px;
+  top: 85px;
+}
+
+.cake-small:nth-child(4) {
+  right: 25px;
+  top: 125px;
+}
+
+.center-circle {
+  width: 50%;
+  height: 20px;
+  width: 20px;
+  background: #EFEFEF;
+  margin: 0 auto;
+
+  border: 2px solid #ffcc99;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 48%;
+  left: 48%;
+}

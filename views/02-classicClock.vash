@@ -14,9 +14,21 @@
 
     <div class="clock">
       <div class="clock-face">
+
+        <div class="clock-cakes">
+          <div class="cake-small"></div>
+          <div class="cake-small"></div>
+          <div class="cake-small"></div>
+          <div class="cake-small"></div>
+        </div>
+
         <div class="hand" id="hour-hand"></div>
         <div class="hand" id="min-hand"></div>
         <div class="hand" id="second-hand"></div>
+
+        <div class="center-circle"></div>
+        <div class="cake-big"></div>
+
       </div>
     </div>
 
