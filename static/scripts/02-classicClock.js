@@ -14,7 +14,6 @@ function setDate() {
   // turn the seconds into degrees so we can work with the transform css property
   // we also add a 90 degree offset so the hand starts where it should start
   const secondsDegrees = ((seconds / 60) * 360) + 90;
-  console.log(secondsDegrees);
 
   // use our new seconds in degree value in the transform property and rotate it
   // same thing would be to use 'transform: rotate(90deg);' in css, but the value
