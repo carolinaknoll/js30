@@ -1,0 +1,23 @@
+@html.extend("layout.vash", function() {
+	@html.block('styles', function(){
+		<link rel="stylesheet" href="styles/00-index.css" type="text/css" media="screen" charset="utf-8">
+     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	})
+
+	@html.block('title', function(){
+		<title>Welcome! [JavaScript 30]</title>
+	})
+
+  @html.block("content", function() {
+
+    <h3 class="big-text">Welcome to my JavaScript30 challenge project!</h3>
+		<p class="medium-text">Feel free to visit my current projects by clicking the links below.</p>
+
+		<a href="01-drumKit"><p class="medium-text">01 - Drum Kit</p></a>
+		<a href="02-classicClock"><p class="medium-text">02 - Classic Clock</p></a>
+
+		<p class="medium-text">Thanks for taking the time to take a look at my project!</p>
+
+    <script src="scripts/02-classicClock.js"></script>
+  })
+})

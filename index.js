@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 3000)
 app.use(express.static(__dirname + '/static'))
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.render('00-index.vash')
 })
 
 app.get('/:path', function(req, res) {
