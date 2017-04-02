@@ -40,6 +40,8 @@
       </div>
     </div>
 
+    <h3 class="big-text">...cake!!</h3>
+
     <script src="scripts/02-classicClock.js"></script>
   })
 })
