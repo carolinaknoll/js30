@@ -1,0 +1,23 @@
+@html.extend("layout.vash", function() {
+
+	@html.block('styles', function() {
+		<link rel="stylesheet" href="styles/06-arrayTypeAhead.css" type="text/css" media="screen" charset="utf-8">
+	})
+
+	@html.block('title', function() {
+		<title>Array Type Ahead [JS30 - 06]</title>
+	})
+
+  @html.block("content", function() {
+
+    <form class="search-form">
+      <input type="text" class="search" placeholder="City or State"/>
+      <ul class="suggestions">
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </ul>
+    </form>
+
+    <script src="scripts/06-arrayTypeAhead.js"></script>
+  })
+})
