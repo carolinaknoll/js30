@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:sync": "node index.js && npm run sync",
-    "sync": "browser-sync start --proxy localhost:3000 --files *"
+    "sync": "browser-sync start --proxy localhost:3000 --files *",
+    "start:sync": "run-p start sync"
   },
   "author": "Carolina Knoll",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "vash": "^0.12.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.8"
+    "browser-sync": "^2.18.8",
+    "npm-run-all": "^4.0.2"
   }
 }
