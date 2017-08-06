@@ -8,6 +8,7 @@
 		<meta name="keywords" content="javascript30, js30, challenges">
 		<meta name="author" content="Carolina Knoll | Front-end Web Developer">
 		<meta name="description" content="JavaScript 30 projects challenge, this time flavored with Node.js and Vash templating engine.">
+		<link rel="stylesheet" href="../scripts/emojione.min.css">
 
 		<!-- Project-specific page title -->
 		@html.block('title')

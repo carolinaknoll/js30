@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "sync": "browser-sync start --proxy localhost:3000 --files *",
+    "sync": "browser-sync start --proxy localhost:3000 --files **",
     "start:sync": "run-p start sync"
   },
   "author": "Carolina Knoll",
