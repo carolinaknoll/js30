@@ -1,0 +1,10 @@
+@html.extend("layout.vash", function() {
+	@html.block('title', function() {
+		<title>Array Cardio [JS30 - 07]</title>
+	})
+
+  @html.block("content", function() {
+    <canvas id="draw" width="800" height="800"></canvas>
+    <script src="scripts/08-HTMLCanvas.js"></script>
+  })
+})

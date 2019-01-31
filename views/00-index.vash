@@ -15,9 +15,12 @@
 
 		<a href="01-drumKit"><p class="medium-text">01 - Drum Kit</p></a>
 		<a href="02-classicClock"><p class="medium-text">02 - Classic Clock</p></a>
-		<a href="03-cssVariables"><p class="medium-text">03 - CSS Variables </p></a>
-		<a href="04-arrayCardio01"><p class="medium-text">04 - JavaScript Array Cardio </p></a>
-		<a href="05-flexImageGallery"><p class="medium-text">05 - CSS Flex Image Gallery </p></a>
+		<a href="03-cssVariables"><p class="medium-text">03 - CSS Variables</p></a>
+		<a href="04-arrayCardio01"><p class="medium-text">04 - JavaScript Array Cardio 01</p></a>
+		<a href="05-flexImageGallery"><p class="medium-text">05 - CSS Flex Image Gallery</p></a>
+		<a href="06-arrayTypeAhead"><p class="medium-text">06 - arrayTypeAhead</p></a>
+		<a href="07-arrayCardio02"><p class="medium-text">07 - JavaScript Array Cardio 02</p></a>
+		<a href="08-HTMLCanvas"><p class="medium-text">08 - HTML Canvas</p></a>
 
 		<p class="medium-text">Thanks for taking the time to take a look at my project!</p>
 

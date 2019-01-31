@@ -1,0 +1,10 @@
+@html.extend("layout.vash", function() {
+	@html.block('title', function() {
+		<title>Array Cardio [JS30 - 07]</title>
+	})
+
+  @html.block("content", function() {
+    <p>Hey, have a look at the console!</p>
+    <script src="scripts/07-arrayCardio02.js"></script>
+  })
+})
